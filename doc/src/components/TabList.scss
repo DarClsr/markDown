@@ -1,0 +1,27 @@
+
+.tablist-component{
+    .close-icon{
+        visibility: hidden;
+    }
+   .nav-link:hover .close-icon{
+        visibility: visible;   
+    }
+    .nav-link.active .close-icon{
+        visibility: visible;   
+    }
+    .unsaved-icon{
+        background-color: #d9534f;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+    }
+    .unsaved.nav-link .close-icon{
+        display: none;
+    }
+    .unsaved.nav-link:hover .close-icon{
+       display: inline-block;  
+    }
+    .unsaved.nav-link:hover .unsaved-icon{
+        display: none;   
+    }
+}
